@@ -1,0 +1,68 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    list-style-type: none; 
+    color: white; 
+    box-sizing: border-box; 
+} 
+ 
+body{ 
+    display: flex; 
+    background: linear-gradient(to right, rgb(102, 0, 255), rgb(187, 0, 255)); 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+} 
+.div1{ 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 400px; 
+} 
+.div2{ 
+    display: flex; 
+    gap: 20px; 
+    justify-content: space-between; 
+    align-items: center; 
+} 
+img{ 
+    border-radius: 50%; 
+    width: 50%; 
+    animation-name: anime; 
+    animation-duration: 0s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: linear; 
+} 
+@keyframes anime { 
+    from{ 
+        transform: rotate(0deg); 
+    }to{ 
+        transform: rotate(360deg); 
+    } 
+} 
+button{ 
+    width: 50px; 
+    height: 50px; 
+    border: none; 
+    border-radius: 50%; 
+} 
+button:hover{ 
+    border: 4px solid rgb(0, 251, 255); 
+} 
+button:nth-child(1){ 
+    background: gray; 
+} 
+button:nth-child(2){ 
+    background: red; 
+} 
+button:nth-child(3){ 
+    background: gray; 
+} 
+button:nth-child(4){ 
+    background: gray; 
+} 
+button:nth-child(5){ 
+    background: gray; 
+}
