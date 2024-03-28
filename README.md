@@ -1,2 +1,2 @@
-# parrak
-parrak
+parrak uchun qilingan
+
